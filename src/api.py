@@ -272,7 +272,7 @@ class HWIServer(server.Server):
                         self.requests.append(f'{command}|{client.id}')
                 except:...
 
-    def recuest_add_info(self, request: str, client_id: str):
+    def request_add_info(self, request: str, client_id: str):
         """
         Handles the request to add information to the database.
 
