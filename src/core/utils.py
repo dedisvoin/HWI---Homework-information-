@@ -1,0 +1,2 @@
+LOCAL_HOST = "localhost"
+LOCAL_PORT = 8000
